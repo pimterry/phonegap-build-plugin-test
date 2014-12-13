@@ -9,11 +9,11 @@ Test page
 
 <script>
 document.write("Scripts work!<br/>");
-window.addEventListener("deviceready", function () {
+document.addEventListener("deviceready", function () {
     document.write("Phonegap works!<br/>");
     document.write("window.device is " + window.device + "<br/>");
     document.write("window.device.platform is " + window.device.platform + "<br/>");
-});
+}, false);
 </script>
 </body>
 </html>
