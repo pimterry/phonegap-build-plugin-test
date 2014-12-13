@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <name>Plugin test</name>
+
+    <description>
+        An example app using plugins
+    </description>
+
+    <author href="http://tim-perry.co.uk" email="tim@tim-perry.co.uk">
+        Tim Perry
+    </author>
+
+    <gap:plugin name="org.apache.cordova.device" version="0.2.12" />    
+
+</widget>

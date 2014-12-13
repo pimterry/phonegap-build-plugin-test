@@ -1,0 +1,20 @@
+<html>
+<head>
+  <script src="phonegap.js"></script>
+</head>
+<body>
+Test page
+
+<br/>
+
+<script>
+document.write("Scripts work!<br/>");
+window.addEventListener("deviceready", function () {
+    document.write("Phonegap works!<br/>");
+    document.write("window.device is " + window.device + "<br/>");
+    document.write("window.device.platform is " + window.device.platform + "<br/>");
+});
+</script>
+</body>
+</html>
+
